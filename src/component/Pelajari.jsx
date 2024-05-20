@@ -3,8 +3,8 @@ import Museum from '../assets/image/Museum.png'
 
 export default function Pelajari() {
   return (
-        <div className='bg-primary px-28 '>
-            <div className=' flex flex-row gap-[25px] justify-between pt-20 pb-[240px]'>
+        <div className='bg-black px-28 '>
+            <div className=' flex flex-row gap-[25px] justify-between pt-[240px] pb-[180px]'>
                 <div className='text-[50px] font-bold w-[600px]'>
                     <h1 className='text-third'>
                         PROFIL BLU MUSIUM NASIONAL

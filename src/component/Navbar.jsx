@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '../assets/image/Logo.png'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 export default function Navbar() {
     const navigate = useNavigate()
@@ -8,9 +8,9 @@ export default function Navbar() {
     <nav className='fixed flex justify-between px-[100px] py-5 w-full items-center bg-black'>
         <img src={Logo} alt="Logo" width={68} height={82}/>
             <ul className='flex gap-6 items-center font-bold text-white'>
-                <li><a>Beranda</a></li>
-                <li><a>Pelajari</a></li>
-                <li><a>Koleksi</a></li>
+                <Link to="/">Beranda</Link>
+                <Link to="/pelajari">Pelajari</Link>
+                <Link to="/koleksi">Koleksi</Link>
                 <li><a>Agenda</a></li>
                 <li><a>Berita</a></li>
                 <li><a>Ulasan</a></li>
