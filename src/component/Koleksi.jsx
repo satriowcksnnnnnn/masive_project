@@ -13,9 +13,6 @@ export default function Koleksi() {
             karya seni, data statistik, barang pribadi, desain pakaian, musik, atau dokumen sejarah.
             </p>
         </div>
-        <div>
-           
-        </div>
     </div>
 </div>
   )
