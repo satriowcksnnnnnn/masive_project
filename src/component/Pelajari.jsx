@@ -7,7 +7,7 @@ export default function Pelajari() {
             <div className=' flex flex-row gap-[25px] justify-between pt-[131px] pb-[180px]'>
                 <div className='text-[50px] font-bold w-[600px]'>
                     <h1 className='text-third'>
-                        PROFIL BLU MUSIUM NASIONAL
+                        PROFIL BLU MUSEUM NASIONAL
                     </h1>
                     <p className='text-white text-[20px] font-semibold text-justify text-base'>
                     Mengingat pentingnya museum ini bagi bangsa Indonesia maka pada tanggal 17 September 1962 
