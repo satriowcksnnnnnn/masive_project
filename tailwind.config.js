@@ -13,6 +13,12 @@ export default {
         fourth: "#17AB52",
         fifth: "#333333"
       },
+      container: {
+        center: true,
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+      }
     },
   },
   plugins: [],
