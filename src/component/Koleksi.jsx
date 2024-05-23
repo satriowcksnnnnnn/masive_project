@@ -1,9 +1,8 @@
 import React from 'react'
-
 export default function Koleksi() {
   return (
     <div className='bg-black w-full'>
-    <div className=' pt-[170px] pb-[110px]'>
+    <div className='pt-[170px] pb-[110px]'>
         <div className=' font-bold flex justify-between px-28'>
             <h1 className='text-white text-[50px]'>
                 Koleksi
