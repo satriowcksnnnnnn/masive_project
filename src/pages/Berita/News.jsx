@@ -1,14 +1,15 @@
 import React from 'react'
 import Navbar from '../../component/Navbar'
-import Footer from '../../component/Footer'
 import Berita from '../../component/Berita'
+import Footer from '../../component/Footer'
+
 
 export default function News() {
-    return (
-        <>
-            <Navbar />
-            <Berita />
-            <Footer />
-        </>
-    )
+  return (
+    <>
+        <Navbar/>
+        <Berita/>
+        <Footer/>
+    </>
+  )
 }

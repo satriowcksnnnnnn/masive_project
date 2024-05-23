@@ -22,7 +22,7 @@ export default function Masuk() {
               <input type='email' placeholder="Masukkan alamat email anda"
                 class="peer h-full w-full border-b border-white bg-transparent pt-4 pb-1.5 font-normal text-white outline outline-0 transition-all placeholder-shown:border-blue-gray-200 disabled:border-0" />
               <label
-                class="after:content[' '] pointer-events-none absolute left-0 -top-2.5 flex h-full w-full select-none !overflow-visible truncate text-xl font-medium leading-tight text-gray-500 transition-all after:absolute after:-bottom-2.5 after:block after:w-full after:scale-x-0 after:border-b-2 after:transition-transform after:duration-300 peer-placeholder-shown:leading-tight peer-placeholder-shown:text-white peer-focus:text-sm peer-focus:leading-tight peer-focus:text-white peer-focus:after:scale-x-100 ">
+                class="after:content[' '] pointer-events-none absolute left-0 -top-2.5 flex h-full w-full select-none !overflow-visible truncate text-xl font-medium leading-tight text-gray-500 transition-all after:absolute after:-bottom-2.5 after:block after:w-full  after:border-b-2 after:transition-transform after:duration-300 peer-placeholder-shown:leading-tight peer-placeholder-shown:text-white peer-focus:leading-tight peer-focus:text-white  ">
                 Email
               </label>
             </div>
@@ -30,7 +30,7 @@ export default function Masuk() {
               <input type='text' placeholder="Masukkan username anda"
                 class="peer h-full w-full border-b border-white bg-transparent pt-4 pb-1.5 font-normal text-white outline outline-0 transition-all placeholder-shown:border-blue-gray-200 disabled:border-0" />
               <label
-                class="after:content[' '] pointer-events-none absolute left-0 -top-2.5 flex h-full w-full select-none !overflow-visible truncate text-xl font-medium leading-tight text-gray-500 transition-all after:absolute after:-bottom-2.5 after:block after:w-full after:scale-x-0 after:border-b-2 after:transition-transform after:duration-300 peer-placeholder-shown:leading-tight peer-placeholder-shown:text-white peer-focus:text-sm peer-focus:leading-tight peer-focus:text-white peer-focus:after:scale-x-100 ">
+                class="after:content[' '] pointer-events-none absolute left-0 -top-2.5 flex h-full w-full select-none !overflow-visible truncate text-xl font-medium leading-tight text-gray-500 transition-all after:absolute after:-bottom-2.5 after:block after:w-full after:scale-x-0 after:border-b-2 after:transition-transform after:duration-300 peer-placeholder-shown:leading-tight peer-placeholder-shown:text-white  peer-focus:leading-tight peer-focus:text-white peer-focus:after:scale-x-100 ">
                 Username
               </label>
             </div>
@@ -41,7 +41,7 @@ export default function Masuk() {
                 className="peer h-full w-full border-b border-white bg-transparent pt-4 pb-1.5 font-normal text-white outline outline-0 transition-all placeholder-shown:border-blue-gray-200 disabled:border-0"
               />
               <label
-                className="after:content[' '] pointer-events-none absolute left-0 -top-2.5 flex h-full w-full select-none !overflow-visible truncate text-xl font-medium leading-tight text-white transition-all after:absolute after:-bottom-2.5 after:block after:w-full after:scale-x-0 after:border-b-2 after:transition-transform after:duration-300 peer-placeholder-shown:leading-tight peer-placeholder-shown:text-white peer-focus:text-sm peer-focus:leading-tight peer-focus:text-white peer-focus:after:scale-x-100"
+                className="after:content[' '] pointer-events-none absolute left-0 -top-2.5 flex h-full w-full select-none !overflow-visible truncate text-xl font-medium leading-tight text-white transition-all after:absolute after:-bottom-2.5 after:block after:w-full after:scale-x-0 after:border-b-2 after:transition-transform after:duration-300 peer-placeholder-shown:leading-tight peer-placeholder-shown:text-white  peer-focus:leading-tight peer-focus:text-white peer-focus:after:scale-x-100"
               >
                 Password
               </label>
