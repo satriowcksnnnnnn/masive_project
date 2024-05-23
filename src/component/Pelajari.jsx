@@ -4,12 +4,12 @@ import Museum from '../assets/image/Museum.png'
 export default function Pelajari() {
   return (
         <div className='bg-black px-28 '>
-            <div className=' flex flex-row gap-[25px] justify-between pt-[131px] pb-[180px]'>
-                <div className='text-[50px] font-bold w-[600px]'>
-                    <h1 className='text-third'>
+            <div className=' flex flex-row gap-[25px] justify-between py-40'>
+                <div className='text-[50px] w-[600px]'>
+                    <h1 className='text-third container pe-32 leading-tight'>
                         PROFIL BLU MUSEUM NASIONAL
                     </h1>
-                    <p className='text-white text-[20px] font-semibold text-justify text-base'>
+                    <p className='text-white text-justify text-base mt-5'>
                     Mengingat pentingnya museum ini bagi bangsa Indonesia maka pada tanggal 17 September 1962 
                     Lembaga Kebudayaan Indonesia menyerahkan pengelolaan museum kepada pemerintah Indonesia, 
                     yang kemudian menjadi Museum Pusat. Akhirnya, berdasarkan Surat Keputusan Menteri Pendidikan 
