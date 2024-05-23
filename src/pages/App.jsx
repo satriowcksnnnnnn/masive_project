@@ -4,6 +4,7 @@ import SignIn from "./Daftar/SignIn";
 import SignUp from "./Masuk/SignUp";
 import Learn from './Pelajari/Learn'
 import Colection from './Koleksi/Colection';
+import News from './Berita/News'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Route path='/masuk' element={<SignUp/>}/>
         <Route path='/pelajari' element={<Learn/>}/>
         <Route path='/koleksi' element={<Colection/>}/>
+        <Route path='/berita' element={<News/>}/>
       </Routes>
     </Router>
     

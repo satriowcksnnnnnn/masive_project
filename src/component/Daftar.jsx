@@ -11,7 +11,9 @@ export default function Daftar() {
   };
   
   return (
-    <div className='grid grid-cols-2 bg-fifth'>
+    <div className="bg-black">
+    <div className='m-[100px]'>
+    <div className='grid grid-cols-2 bg-fifth rounded-md'>
         <div className='px-[100px] py-[150px]'>
           <h1 className='font-bold text-6xl text-white whitespace-nowrap'>DAFTAR SEKARANG</h1>
           <h2 className='text-[26px] text-white'>Mempelajari lebih lanjut tentang Seni</h2>
@@ -20,7 +22,7 @@ export default function Daftar() {
               <input type='email' placeholder="Masukkan alamat email anda"
                 class="peer h-full w-full border-b border-white bg-transparent pt-4 pb-1.5 font-normal text-white outline outline-0 transition-all placeholder-shown:border-blue-gray-200 disabled:border-0" />
               <label
-                class="after:content[' '] pointer-events-none absolute left-0 -top-2.5 flex h-full w-full select-none !overflow-visible truncate text-xl font-medium leading-tight text-gray-500 transition-all after:absolute after:-bottom-2.5 after:block after:w-full after:scale-x-0 after:border-b-2 after:transition-transform after:duration-300 peer-placeholder-shown:leading-tight peer-placeholder-shown:text-white peer-focus:text-sm peer-focus:leading-tight peer-focus:text-white peer-focus:after:scale-x-100 ">
+                class="after:content[' '] pointer-events-none absolute left-0 -top-2.5 flex h-full w-full select-none !overflow-visible truncate text-xl font-medium leading-tight text-gray-500 transition-all after:absolute after:-bottom-2.5 after:block after:w-full after:scale-x-0 after:border-b-2 after:transition-transform after:duration-300 peer-placeholder-shown:leading-tight peer-placeholder-shown:text-white peer-focus: peer-focus:leading-tight peer-focus:text-white peer-focus:after:scale-x-100 ">
                 Email
               </label>
             </div>
@@ -28,7 +30,7 @@ export default function Daftar() {
               <input type='text' placeholder="Masukkan username anda"
                 class="peer h-full w-full border-b border-white bg-transparent pt-4 pb-1.5 font-normal text-white outline outline-0 transition-all placeholder-shown:border-blue-gray-200 disabled:border-0" />
               <label
-                class="after:content[' '] pointer-events-none absolute left-0 -top-2.5 flex h-full w-full select-none !overflow-visible truncate text-xl font-medium leading-tight text-gray-500 transition-all after:absolute after:-bottom-2.5 after:block after:w-full after:scale-x-0 after:border-b-2 after:transition-transform after:duration-300 peer-placeholder-shown:leading-tight peer-placeholder-shown:text-white peer-focus:text-sm peer-focus:leading-tight peer-focus:text-white peer-focus:after:scale-x-100 ">
+                class="after:content[' '] pointer-events-none absolute left-0 -top-2.5 flex h-full w-full select-none !overflow-visible truncate text-xl font-medium leading-tight text-gray-500 transition-all after:absolute after:-bottom-2.5 after:block after:w-full after:scale-x-0 after:border-b-2 after:transition-transform after:duration-300 peer-placeholder-shown:leading-tight peer-placeholder-shown:text-white peer-focus: peer-focus:leading-tight peer-focus:text-white peer-focus:after:scale-x-100 ">
                 Username
               </label>
             </div>
@@ -39,7 +41,7 @@ export default function Daftar() {
                 className="peer h-full w-full border-b border-white bg-transparent pt-4 pb-1.5 font-normal text-white outline outline-0 transition-all placeholder-shown:border-blue-gray-200 disabled:border-0"
               />
               <label
-                className="after:content[' '] pointer-events-none absolute left-0 -top-2.5 flex h-full w-full select-none !overflow-visible truncate text-xl font-medium leading-tight text-white transition-all after:absolute after:-bottom-2.5 after:block after:w-full after:scale-x-0 after:border-b-2 after:transition-transform after:duration-300 peer-placeholder-shown:leading-tight peer-placeholder-shown:text-white peer-focus:text-sm peer-focus:leading-tight peer-focus:text-white peer-focus:after:scale-x-100"
+                className="after:content[' '] pointer-events-none absolute left-0 -top-2.5 flex h-full w-full select-none !overflow-visible truncate text-xl font-medium leading-tight text-white transition-all after:absolute after:-bottom-2.5 after:block after:w-full after:scale-x-0 after:border-b-2 after:transition-transform after:duration-300 peer-placeholder-shown:leading-tight peer-placeholder-shown:text-white peer-focus: peer-focus:leading-tight peer-focus:text-white peer-focus:after:scale-x-100"
               >
                 Password
               </label>
@@ -99,6 +101,8 @@ export default function Daftar() {
           </form>
         </div>
         <img alt='image' src={ImageLog}/>
+    </div>
+    </div>
     </div>
   )
 }

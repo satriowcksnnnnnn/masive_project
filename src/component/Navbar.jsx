@@ -12,7 +12,7 @@ export default function Navbar() {
                 <Link to="/pelajari">Pelajari</Link>
                 <Link to="/koleksi">Koleksi</Link>
                 <li><a>Agenda</a></li>
-                <li><a>Berita</a></li>
+                <Link to="/berita">Berita</Link>
                 <li><a>Ulasan</a></li>
                 <button onClick={() => navigate('/masuk')} className='bg-white px-[18px] py-2 rounded-[9px] font-bold hover:bg-secondary/50 text-black'>
                     Masuk
