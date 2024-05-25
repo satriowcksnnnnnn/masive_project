@@ -1,5 +1,4 @@
 import React from 'react'
-import Logo from '../assets/image/Logo.png'
 
 export default function 
 () {
@@ -9,7 +8,7 @@ export default function
     
     <div className=' flex justify-between pt-2 text-white'>
         <div className=''>
-            <img src={Logo}/>
+            <img src='images/Logo.png'/>
             <p className='mt-4'>
             Visi kami adalah memberikan kemudahan <br/>dan membantu meningkatkan bisnis penjualan Anda.
             </p>

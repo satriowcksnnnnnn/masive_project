@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../assets/styles/formulir.css'
 
 import { LuUpload } from "react-icons/lu";
@@ -6,7 +6,7 @@ import { LuUpload } from "react-icons/lu";
 export default function Formulir() {
     return (
         <>
-            <div className="bg-black w-full">
+            <div className="bg-primary w-full">
                 <div className='pt-[170px] pb-[110px]'>
                     <div className='text-4xl text-white text-center font-semibold mb-16'>
                         Formulir Pengajuan Upload Karya

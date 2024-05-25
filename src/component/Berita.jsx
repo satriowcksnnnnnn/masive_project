@@ -1,11 +1,8 @@
 import React from 'react';
-import Beritaimg1 from '../assets/image/Beritaimg1.png'
-import Beritaimg2 from '../assets/image/Beritaimg2.png'
-import Profil1 from '../assets/image/profil1.jpg'
 
 export default function App() {
   return (
-    <div className='bg-black w-full min-h-screen px-20 pt-5 pb-[72px]'>
+    <div className='bg-primary w-full min-h-screen px-20 pt-5 pb-[72px]'>
       <div className='p-4 '>
         <div className='px-[100px] mt-[130px]'>
         <h1 className='text-white text-[40px] '>
@@ -13,7 +10,7 @@ export default function App() {
         </h1>
         <div className='flex gap-14'>
           <div className='max-w-72'>
-              <img src={Beritaimg1}/>
+              <img src='images/Beritaimg1.png'/>
               <h3 className='text-white mt-5 font-bold text-xl'>
                 Pertunjukan Wayang Orang Berjudul ”Pandu Dewanata”
               </h3>
@@ -21,7 +18,7 @@ export default function App() {
                 Berkisah tentang Pandhu Dewanata yang memiliki permaisuri Dewi Kunthi dan Dewi Madrim. <span className='text-[10px] text-[#999999]'>12 hari yang lalu</span> 
               </p>
               <div className='flex gap-3 items-center mt-5 mb-3'>
-                <img src={Profil1} className='rounded-full w-10 h-10'/>
+                <img src='images/profil1.jpg' className='rounded-full w-10 h-10'/>
                 <div className='text-white'>
                     <p className='text-xs'>
                       Khairunnisa Mukinin
@@ -44,7 +41,7 @@ export default function App() {
               </div>
           </div>
           <div className='text-white max-w-xl'>
-              <img src={Beritaimg2}/>
+              <img src='images/Beritaimg2.png'/>
               <h2 className='text-white text-2xl font-semibold text-center mt-[14px] mb-[42px]'>
                 Teater Jangkar Bumi Pentaskan Pertunjukan Berjudul    “Dukun-Dukunan”
               </h2>
@@ -53,7 +50,7 @@ export default function App() {
               </p>
           </div>
           <div className='max-w-72'>
-              <img src={Beritaimg1}/>
+              <img src='images/Beritaimg1.png'/>
               <h3 className='text-white mt-5 font-bold text-xl'>
                 Pertunjukan Wayang Orang Berjudul ”Pandu Dewanata”
               </h3>
@@ -61,7 +58,7 @@ export default function App() {
                 Berkisah tentang Pandhu Dewanata yang memiliki permaisuri Dewi Kunthi dan Dewi Madrim. <span className='text-[10px] text-[#999999]'>12 hari yang lalu</span> 
               </p>
               <div className='flex gap-3 items-center mt-5 mb-3'>
-                <img src={Profil1} className='rounded-full w-10 h-10'/>
+                <img src='images/profil1.jpg' className='rounded-full w-10 h-10'/>
                 <div className='text-white'>
                     <p className='text-xs'>
                       Khairunnisa Mukinin

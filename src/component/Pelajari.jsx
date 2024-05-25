@@ -1,9 +1,8 @@
 import React from 'react'
-import Museum from '../assets/image/Museum.png'
 
 export default function Pelajari() {
     return (
-        <div className='bg-black px-28 '>
+        <div className='bg-primary px-28 '>
             <div className=' flex flex-row gap-[25px] justify-between py-40'>
                 <div className='text-[50px] w-[600px]'>
                     <h1 className='text-third container pe-20 leading-tight'>
@@ -27,7 +26,7 @@ export default function Pelajari() {
                     </p>
                 </div>
                 <div>
-                    <img src={Museum} w-full />
+                    <img src='images/Museum.png' w-full />
                     <p className='text-white text-2xl font-semibold text-center pt-6'>
                         Museum Nasional Indonesia
                     </p>

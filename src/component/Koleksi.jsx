@@ -1,32 +1,4 @@
 import React, { useState } from 'react';
-import Koleksi1 from '../assets/image/koleksi1.png'
-import Koleksi2 from '../assets/image/koleksi2.png'
-import Koleksi3 from '../assets/image/koleksi3.png'
-import Koleksi4 from '../assets/image/koleksi4.png'
-import Lukisan1 from '../assets/image/lukisan1.png'
-import Lukisan2 from '../assets/image/lukisan2.png'
-import Lukisan3 from '../assets/image/lukisan3.png'
-import Lukisan4 from '../assets/image/lukisan4.png'
-import Lukisan5 from '../assets/image/lukisan5.png'
-import Lukisan6 from '../assets/image/lukisan6.png'
-import Batik1 from '../assets/image/batik1.png'
-import Batik2 from '../assets/image/batik2.png'
-import Batik3 from '../assets/image/batik3.png'
-import Batik4 from '../assets/image/batik4.png'
-import Batik5 from '../assets/image/batik5.png'
-import Batik6 from '../assets/image/batik6.png'
-import Kerajinan1 from '../assets/image/kerajinan1.png'
-import Kerajinan2 from '../assets/image/kerajinan2.png'
-import Kerajinan3 from '../assets/image/kerajinan3.png'
-import Kerajinan4 from '../assets/image/kerajinan4.png'
-import Kerajinan5 from '../assets/image/kerajinan5.png'
-import Kerajinan6 from '../assets/image/kerajinan6.png'
-import Seniman1 from '../assets/image/seniman1.png'
-import Seniman2 from '../assets/image/seniman2.png'
-import Seniman3 from '../assets/image/seniman3.png'
-import Seniman4 from '../assets/image/seniman4.png'
-import Seniman5 from '../assets/image/seniman5.png'
-import Seniman6 from '../assets/image/seniman6.png'
 
 export default function Koleksi() {
   const [activeTab, setActiveTab] = useState('popular');
@@ -35,161 +7,161 @@ export default function Koleksi() {
     {
       id: 1,
       title: "POHON DAN ANDONG",
-      image: Koleksi1,
+      image: 'images/koleksi1.png',
     },
     {
       id: 2,
       title: "KAWUNG DAN TUMPAL",
-      image: Koleksi2,
+      image: 'images/koleksi2.png',
     },
     {
       id: 3,
       title: "POTRET DIRI",
-      image: Koleksi3,
+      image: 'images/koleksi3.png',
     },
     {
       id: 4,
       title: "AFANDI KOESOEMA",
-      image: Koleksi4,
+      image: 'images/koleksi4.png',
     }
   ]
   const lukisan = [
     {
       id : 1,
       title : 'Potret Diri',
-      img :   Koleksi3,
+      img :   'images/lukisan1.png',
     },
     {
       id : 2,
       title : 'Barong Bali',
-      img : Lukisan2,
+      img : 'images/lukisan2.png',
     },
     {
       id : 3,
       title : 'Kampung Nelayan',
-      img : Lukisan3,
+      img : 'images/lukisan3.png',
     },
     {
       id : 4,
       title : 'Title 1',
-      img : Lukisan4,
+      img : 'images/lukisan4.png',
     },
     {
       id : 5,
       title : 'Title 2',
-      img : Lukisan5,
+      img : 'images/lukisan5.png',
     },
     {
       id : 6,
       title : 'Title3',
-      img : Lukisan6,
+      img : 'images/lukisan5.png',
     }
   ]
   const batik = [ 
     {
       id : 1,
       title : 'Hewan Darat dan Udara',
-      img :   Batik1,
+      img :   'images/batik1.png',
     },
     {
       id : 2,
       title : 'Kawung dan Tumpal',
-      img :   Batik2,
+      img :   'images/batik2.png',
     },
     {
       id : 3,
       title : 'Tumbuhan Deret',
-      img :   Batik3,
+      img :   'images/batik3.png',
     },
     {
       id : 4,
       title : 'Title 1',
-      img :   Batik4,
+      img :   'images/batik4.png',
     },
     {
       id : 5,
       title : 'Title 2',
-      img :   Batik5,
+      img :   'images/batik5.png',
     },
     {
       id : 6,
       title : 'Title 3',
-      img :   Batik6,
+      img :   'images/batik6.png',
     },
   ]
   const kerajinan = [
     {
       id : 1,
       title : 'Hewan Darat dan Udara',
-      img :   Kerajinan1,
+      img :   'images/kerajinan1.png',
     },
     {
       id : 2,
       title : 'Kawung dan Tumpal',
-      img :   Kerajinan2,
+      img :   'images/kerajinan2.png',
     },
     {
       id : 3,
       title : 'Tumbuhan Deret',
-      img :   Kerajinan3,
+      img :   'images/kerajinan3.png',
     },
     {
       id : 4,
       title : 'Title 1',
-      img :   Kerajinan4,
+      img :   'images/kerajinan4.png',
     },
     {
       id : 5,
       title : 'Title 2',
-      img :   Kerajinan5,
+      img :   'images/kerajinan5.png',
     },
     {
       id : 6,
       title : 'Title 3',
-      img :   Kerajinan6,
+      img :   'images/kerajinan6.png',
     },
   ]
   const seniman = [
     {
       id : 1,
       title : 'Afandi Koesoema',
-      img :   Seniman1,
+      img :   'images/seniman1.png',
       location : 'Indonesia'
     },
     {
       id : 2,
       title : 'Rio Helmi',
-      img :   Seniman2,
+      img :   'images/seniman2.png',
       location : 'Indonesia'
     },
     {
       id : 3,
       title : 'Saleh Syarif Bustaman',
-      img :   Seniman3,
+      img :   'images/seniman3.png',
       location : 'Indonesia'
     },
     {
       id : 4,
       title : 'Title 1',
-      img :   Seniman4,
+      img :   'images/seniman4.png',
       location : 'Indonesia'
     },
     {
       id : 5,
       title : 'Title 2',
-      img :   Seniman5,
+      img :   'images/seniman5.png',
       location : 'Indonesia'
     },
     {
       id : 6,
       title : 'Title 3',
-      img :   Seniman6,
+      img :   'images/seniman6.png',
       location : 'Indonesia'
     },
   ]
 
   return (
-    <div className='bg-black w-full'>
+    <div className='bg-primary w-full'>
       <div className='pt-[170px] pb-[110px]'>
         <div className='font-bold flex justify-between px-28'>
           <h1 className='text-white text-[50px]'>
