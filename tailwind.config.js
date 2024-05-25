@@ -3,16 +3,16 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
-    "./node_modules/react-tailwindcss-datepicker/dist/index.esm.js",
   ],
   theme: {
     extend: {
       colors: {
-        primary: "#1E1E1E",
+        primary: "#0F0F0F",
         secondary: "#3C3C3C",
         third: "#FFD685",
         fourth: "#17AB52",
-        fifth: "#333333"
+        fifth: "#333333",
+        facebook: '#3F57AB'
       },
       container: {
         center: true,

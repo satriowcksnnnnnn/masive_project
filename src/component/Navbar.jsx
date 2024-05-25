@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import Logo from '../assets/image/Logo.png'
 
 import '../assets/styles/navbar.css'
 
@@ -34,10 +33,10 @@ export default function Navbar() {
     }, []);
 
     return (
-        <nav className='fixed py-5 w-full items-center bg-black' id='navbar'>
+        <nav className='fixed py-5 w-full items-center bg-primary' id='navbar'>
             <div className='flex flex-row justify-center text-white px-28'>
                 <div className="flex-initial w-60">
-                    <img src={Logo} alt="Logo" width={50} />
+                    <img src='images/Logo.png' alt="Logo" width={50} />
                 </div>
                 <div className="flex-auto flex justify-center items-center gap-5 text-sm">
                     <Link to="/" className={activeRoute === '/' ? 'text-third' : ''}>Beranda</Link>
@@ -46,6 +45,7 @@ export default function Navbar() {
                     <Link to='/agenda' className={activeRoute === '/agenda' ? 'text-third' : ''}>Agenda</Link>
                     <Link to='/berita' className={activeRoute === '/berita' ? 'text-third' : ''}>Berita</Link>
                     <Link to='/ulasan' className={activeRoute === '/ulasan' ? 'text-third' : ''}>Ulasan</Link>
+                    <Link to='/upload' className={activeRoute === '/upload' ? 'text-third' : ''}>Kontak</Link>
                 </div>
                 <div className="flex-initial w-60 flex items-center gap-6 justify-end">
                     <button onClick={() => navigate('/masuk')} className='bg-white px-[18px] py-2 rounded-[9px] hover:bg-gray-300 text-black ease-in-out duration-200 font-semibold'>

@@ -5,7 +5,7 @@ import Masuk from '../../component/Masuk';
 export default function SignUp() {
   return (
     <>
-       <Masuk/> 
+      <Masuk />
     </>
   )
 }

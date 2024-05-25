@@ -1,8 +1,7 @@
 import React from 'react'
-import Image from '../assets/image/Heroimg2.png'
 export default function Hero() {
     const containerStyle = {
-        background: `url(${Image})`,
+        background: `url(images/Heroimg2.png)`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
