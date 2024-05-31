@@ -11,3 +11,6 @@
 body {
     background-color: #0F0F0F;
 }
+.slick-slide > div {
+    margin: 0 10px;
+  }
