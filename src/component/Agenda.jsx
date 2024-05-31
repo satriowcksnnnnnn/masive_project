@@ -63,7 +63,7 @@ export default function Agenda() {
                     <div className=''>
                         <h2 className='mt-5 text-white text-[40px] font-medium'>November 15’23</h2>
                         <div className='flex justify-between'>
-                            <div className='w-full flex'>
+                            <div className='w-full '>
                                 <div>
                                 {date15.map((item, index) => (
                                     <div key={index} className='bg-[#333333] mt-4 rounded-xl text-white'>
