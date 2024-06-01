@@ -67,17 +67,24 @@ export default function
             </div>
         </div>
         <div className='mt-3'>
-            <p className='mb-8'>TENTANG</p>
+            <p className='mb-8 text-xl font-semibold'>TENTANG</p>
             <p className='mb-8'>Unggulan</p>
             <p className='mb-8'>Kemitraan</p>
             <p className='mb-8'>Hubungan Bisnis</p>
         </div>
         <div className='mt-3'>
-            <p className='mb-8'>Komunitas</p>
+            <p className='mb-8 text-xl font-semibold'>Komunitas</p>
             <p className='mb-8'>Acara</p>
             <p className='mb-8'>Blog</p>
             <p className='mb-8'>Siniar</p>
             <p className='mb-8'>Undang Teman</p>
+        </div>
+        <div className='mt-3'>
+            <p className='mb-8 text-xl font-semibold'>Sosial</p>
+            <p className='mb-8'>Discord</p>
+            <p className='mb-8'>Instagram</p>
+            <p className='mb-8'>Twitter</p>
+            <p className='mb-8'>Facebook</p>
         </div>
     </div>
     <div className='w-full'>
