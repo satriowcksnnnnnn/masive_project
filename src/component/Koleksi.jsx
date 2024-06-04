@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Koleksi() {
   const [activeTab, setActiveTab] = useState('popular');
@@ -18,6 +19,7 @@ export default function Koleksi() {
       id: 3,
       title: "POTRET DIRI",
       image: 'images/koleksi3.png',
+      link: '/koleksi/3',
     },
     {
       id: 4,
@@ -186,14 +188,14 @@ export default function Koleksi() {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[30px]'>
               {populer.map((populer, index) => (
                 <div key={index} className='bg-white rounded-xl'>
-                  <div className=''>
+                  <Link to={populer.link}>
                     <img src={populer.image} alt={populer.title} className='w-full h-full object-cover'/>
                     <div className='py-4 px-4'>
                       <p className='text-black text-center font-medium text-[18px]'>
                         {populer.title}
                       </p>
                     </div>
-                  </div>
+                  </Link>
                 </div>
               ))}
             </div>

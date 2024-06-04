@@ -24,7 +24,7 @@ function App() {
         <Route path='/berita' element={<News />}/>
         <Route path='/agenda' element={<Schedule />}/>
         <Route path='/ulasan' element={<Review  />}/>
-        <Route path='/koleksi/1' element={<DetailCollection  />}/>
+        <Route path='/koleksi/3' element={<DetailCollection  />}/>
       </Routes>
     </Router>
     
