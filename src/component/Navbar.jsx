@@ -36,7 +36,7 @@ export default function Navbar() {
         <nav className='fixed py-5 w-full items-center bg-primary' id='navbar'>
             <div className='flex flex-row justify-center text-white px-28'>
                 <div className="flex-initial w-60">
-                    <img src='images/Logo.png' alt="Logo" width={50} />
+                    <img src='/images/Logo.png' alt="Logo" width={50} />
                 </div>
                 <div className="flex-auto flex justify-center items-center gap-5 text-sm">
                     <Link to="/" className={activeRoute === '/' ? 'text-third' : ''}>Beranda</Link>

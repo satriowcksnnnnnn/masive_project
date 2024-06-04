@@ -14,6 +14,7 @@ export default {
         fifth: "#333333",
         facebook: '#3F57AB',
         upload: '#73BBA3',
+        sixth: '#292828'
       },
       container: {
         center: true,

@@ -8,6 +8,7 @@ import Upload from './Upload/Upload'
 import News from './Berita/News';
 import Schedule from './Agenda/Schedule';
 import Review from './Ulasan/Review';
+import DetailCollection from './Detail/DetailCollection';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Route path='/berita' element={<News />}/>
         <Route path='/agenda' element={<Schedule />}/>
         <Route path='/ulasan' element={<Review  />}/>
+        <Route path='/koleksi/1' element={<DetailCollection  />}/>
       </Routes>
     </Router>
     
