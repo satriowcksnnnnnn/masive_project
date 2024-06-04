@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, useNavigate, useLocation } from 'react-router-dom'
 
 import '../assets/styles/navbar.css'
 
 export default function Navbar() {
     const navigate = useNavigate()
     const [activeRoute, setActiveRoute] = useState(window.location.pathname)
+    
+    const location = useLocation();
+    const isActive = location.pathname.startsWith('/koleksi');
 
     useEffect(() => {
         const navbar = document.getElementById('navbar');
@@ -36,12 +39,12 @@ export default function Navbar() {
         <nav className='fixed py-5 w-full items-center bg-primary' id='navbar'>
             <div className='flex flex-row justify-center text-white px-28'>
                 <div className="flex-initial w-60">
-                    <img src='images/Logo.png' alt="Logo" width={50} />
+                    <img src='/images/Logo.png' alt="Logo" width={50} />
                 </div>
                 <div className="flex-auto flex justify-center items-center gap-5 text-sm">
                     <Link to="/" className={activeRoute === '/' ? 'text-third' : ''}>Beranda</Link>
                     <Link to="/pelajari" className={activeRoute === '/pelajari' ? 'text-third' : ''}>Pelajari</Link>
-                    <Link to="/koleksi" className={activeRoute === '/koleksi' ? 'text-third' : ''}>Koleksi</Link>
+                    <Link to="/koleksi" className={isActive ? 'text-third' : ''}>Koleksi</Link>
                     <Link to='/agenda' className={activeRoute === '/agenda' ? 'text-third' : ''}>Agenda</Link>
                     <Link to='/berita' className={activeRoute === '/berita' ? 'text-third' : ''}>Berita</Link>
                     <Link to='/ulasan' className={activeRoute === '/ulasan' ? 'text-third' : ''}>Ulasan</Link>
