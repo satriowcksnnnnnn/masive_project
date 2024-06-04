@@ -12,7 +12,8 @@ export default {
         third: "#FFD685",
         fourth: "#17AB52",
         fifth: "#333333",
-        facebook: '#3F57AB'
+        facebook: '#3F57AB',
+        upload: '#73BBA3',
       },
       container: {
         center: true,

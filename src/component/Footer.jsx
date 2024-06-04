@@ -3,7 +3,7 @@ import React from 'react'
 export default function 
 () {
   return (
-    <div className='px-[100px] bg-secondary '>
+    <div className='px-[100px] bg-secondary py-7'>
 
     
     <div className=' flex justify-between pt-2 text-white'>
