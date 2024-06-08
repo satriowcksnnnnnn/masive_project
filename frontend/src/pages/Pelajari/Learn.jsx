@@ -6,7 +6,9 @@ import Footer from "../../component/Footer"
 export default function Learn() {
   return (
     <>
-    <Navbar/>
+    <div className="hidden md:block">
+      <Navbar />
+    </div>
     <Pelajari/>
     <Footer/>
     </>

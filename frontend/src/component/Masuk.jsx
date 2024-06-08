@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FaEye, FaEyeSlash, FaFacebookF } from 'react-icons/fa';
 import { FcGoogle } from "react-icons/fc";
 import { FaXTwitter } from "react-icons/fa6";
@@ -19,12 +19,17 @@ export default function Masuk() {
       <div className="flex items-center justify-center">
         <div className="container text-white bg-fifth w-[1024px] flex justify-center">
           <div className="flex items-center">
-            <div className='flex-1 pe-10'>
+            <div className='hidden md:flex-1 md:pe-10 md:block'>
               <img src="/images/imgmasuk.png" alt="" className=' rounded-r-[50px]' />
             </div>
-            <div className='flex-1 pe-11'>
-              <h1 className='font-bold text-5xl text-white'>HALLO PHILE SELAMAT DATANG</h1>
-              <h2 className='text-[20px] mt-3 text-white'>Mempelajari lebih lanjut tentang Seni</h2>
+            <div className='p-16 md:flex-1 md:pe-11 md:p-0'>
+              <div className='flex justify-center mb-8 md:hidden md:mb-0'>
+                <img src='/images/Logo.png' />
+              </div>
+              <h1 className='font-bold text-white text-center text-4xl md:text-5xl md:text-start'>
+                <span className='hidden md:block'>HALLO PHILE </span>SELAMAT DATANG
+              </h1>
+              <h2 className='text-center md:text-[20px] md:mt-3 md:text-white md:text-start'>Mempelajari lebih lanjut tentang Seni</h2>
               <form action="" className='text-[14px]'>
                 <div className='mt-10'>
                   <label htmlFor="email">
