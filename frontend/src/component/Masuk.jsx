@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FaEye, FaEyeSlash, FaFacebookF } from 'react-icons/fa';
 import { FcGoogle } from "react-icons/fc";
 import { FaXTwitter } from "react-icons/fa6";
@@ -6,21 +6,30 @@ import { Link, useNavigate } from 'react-router-dom';
 
 import '../assets/styles/auth.css'
 
-export default function Daftar() {
+export default function Masuk() {
   const [showPassword, setShowPassword] = useState(false);
 
   const togglePasswordVisibility = () => {
     setShowPassword((prevState) => !prevState);
   };
 
+  const navigate = useNavigate()
   return (
     <>
       <div className="flex items-center justify-center">
         <div className="container text-white bg-fifth w-[1024px] flex justify-center">
           <div className="flex items-center">
-            <div className='flex-1 ps-11'>
-              <h1 className='font-bold text-5xl text-white'>DAFTAR SEKARANG</h1>
-              <h2 className='text-[20px] mt-3 text-white'>Mempelajari lebih lanjut tentang Seni</h2>
+            <div className='hidden md:flex-1 md:pe-10 md:block'>
+              <img src="/images/imgmasuk.png" alt="" className=' rounded-r-[50px]' />
+            </div>
+            <div className='p-16 md:flex-1 md:pe-11 md:p-0'>
+              <div className='flex justify-center mb-8 md:hidden md:mb-0'>
+                <img src='/images/Logo.png' />
+              </div>
+              <h1 className='font-bold text-white text-center text-4xl md:text-5xl md:text-start'>
+                <span className='hidden md:block'>HALLO PHILE </span>SELAMAT DATANG
+              </h1>
+              <h2 className='text-center md:text-[20px] md:mt-3 md:text-white md:text-start'>Mempelajari lebih lanjut tentang Seni</h2>
               <form action="" className='text-[14px]'>
                 <div className='mt-10'>
                   <label htmlFor="email">
@@ -31,15 +40,7 @@ export default function Daftar() {
                   </div>
                 </div>
                 <div className='mt-5'>
-                  <label htmlFor="username">
-                    Username
-                  </label>
-                  <div className='mt-3'>
-                    <input type="text" className='w-full auth-form px-3 py-1' />
-                  </div>
-                </div>
-                <div className='mt-5'>
-                  <label htmlFor="password">
+                  <label htmlFor="email">
                     Password
                   </label>
                   <div className='mt-3'>
@@ -90,7 +91,7 @@ export default function Daftar() {
                     </div>
                     <div className="flex-1 grid items-center justify-center">
                       <div className="w-10 h-10 border rounded-md flex justify-center items-center bg-white">
-                        <FaXTwitter className='text-black text-2xl' />
+                        <FaXTwitter className='text-black text-2xl'/>
                       </div>
                     </div>
                     <div className="flex-1 grid items-center">
@@ -101,12 +102,9 @@ export default function Daftar() {
                   </div>
                 </div>
                 <div className="mt-5 flex justify-center">
-                  Sudah memiliki akun? <Link to={'/masuk'}>&thinsp;Masuk</Link>
+                  Belum memiliki akun? <Link to={'/daftar'}>&thinsp;Daftar</Link>
                 </div>
               </form>
-            </div>
-            <div className='flex-1 ps-10'>
-              <img src="/images/imgdaftar.png" alt="" className=' rounded-l-[50px]' />
             </div>
           </div>
         </div>
