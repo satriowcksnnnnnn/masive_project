@@ -9,6 +9,7 @@ import News from './Berita/News';
 import Schedule from './Agenda/Schedule';
 import Review from './Ulasan/Review';
 import DetailCollection from './Detail/DetailCollection';
+import DetailNews from './DetailBerita/DetailNews';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
         <Route path='/agenda' element={<Schedule />}/>
         <Route path='/ulasan' element={<Review  />}/>
         <Route path='/koleksi/3' element={<DetailCollection  />}/>
+        <Route path='/News/' element={<DetailNews />}/>
       </Routes>
     </Router>
     
