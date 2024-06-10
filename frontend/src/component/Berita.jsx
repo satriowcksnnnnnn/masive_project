@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function App() {
   return (
@@ -40,6 +41,7 @@ export default function App() {
                 </p>
               </div>
           </div>
+          <Link to="/News">
           <div className='text-white max-w-xl'>
               <img src='images/Beritaimg2.png'/>
               <h2 className='text-white text-2xl font-semibold text-center mt-[14px] mb-[42px]'>
@@ -49,6 +51,7 @@ export default function App() {
               Teater Jangkar Bumi didukung oleh www.indonesiakaya.com menggelar pentas berjudul “Dukun-Dukunan” pada tanggal 16 Februari 2019 di Gedung Teater Arena Taman Budaya Jawa Tengah, Jl. Ir. Sutami, Jebres Kota Surakarta. Teater yang berasal dari Madrasah Aliyah (MA) Qudsiyyah Kudus ini pernah meraih gelar Teater Terbaik I dalam ajang Teater Djarum Award – Festival Teater Pelajar ke-11 (FTP-XI) tahun 2018 yang diselenggarakan oleh Teater Djarum bersama Departemen Pendidikan Pemuda dan Olahraga Kabupaten Kudus.
               </p>
           </div>
+          </Link>
           <div className='max-w-72'>
               <img src='images/Beritaimg1.png'/>
               <h3 className='text-white mt-5 font-bold text-xl'>
