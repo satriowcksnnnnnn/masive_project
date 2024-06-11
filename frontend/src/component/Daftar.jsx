@@ -15,8 +15,8 @@ export default function Daftar() {
 
   return (
     <>
-      <div className="flex items-center justify-center">
-        <div className="container text-white bg-fifth w-[1024px] flex justify-center">
+      <div className="flex items-center justify-center h-[100vh]">
+        <div className="container text-white bg-fifth w-[1024px] flex justify-center rounded-2xl">
           <div className="flex items-center">
             <div className='p-16 md:flex-1 md:ps-11 md:p-0'>
               <div className='flex justify-center mb-8 md:hidden md:mb-0'>
@@ -106,7 +106,7 @@ export default function Daftar() {
               </form>
             </div>
             <div className='hidden md:flex-1 md:ps-10 md:block'>
-              <img src="/images/imgdaftar.png" alt="" className=' rounded-l-[50px]' />
+              <img src="/images/imgdaftar.png" alt="" className='rounded-l-[50px] rounded-2xl' />
             </div>
           </div>
         </div>

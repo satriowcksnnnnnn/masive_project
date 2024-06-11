@@ -16,11 +16,11 @@ export default function Masuk() {
   const navigate = useNavigate()
   return (
     <>
-      <div className="flex items-center justify-center">
-        <div className="container text-white bg-fifth w-[1024px] flex justify-center">
+      <div className="flex items-center justify-center h-[100vh]">
+        <div className="container text-white bg-fifth w-[1024px] flex justify-center rounded-2xl">
           <div className="flex items-center">
             <div className='hidden md:flex-1 md:pe-10 md:block'>
-              <img src="/images/imgmasuk.png" alt="" className=' rounded-r-[50px]' />
+              <img src="/images/imgmasuk.png" alt="" className=' rounded-r-[50px] rounded-2xl' />
             </div>
             <div className='p-16 md:flex-1 md:pe-11 md:p-0'>
               <div className='flex justify-center mb-8 md:hidden md:mb-0'>
