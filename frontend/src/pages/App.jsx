@@ -10,6 +10,8 @@ import Schedule from './Agenda/Schedule';
 import Review from './Ulasan/Review';
 import DetailCollection from './Detail/DetailCollection';
 import DetailNews from './DetailBerita/DetailNews';
+import DashAdmin from './Admin/DashAdmin';
+
 
 function App() {
 
@@ -27,6 +29,7 @@ function App() {
         <Route path='/ulasan' element={<Review  />}/>
         <Route path='/koleksi/3' element={<DetailCollection  />}/>
         <Route path='/News/' element={<DetailNews />}/>
+        <Route path='/admin/' element={<DashAdmin />}/>
       </Routes>
     </Router>
     
