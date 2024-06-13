@@ -48,8 +48,8 @@ export default function Navbar() {
                     <Link to='/upload' className={activeRoute === '/upload' ? 'text-third' : ''}>Seniman</Link>
                 </div>
                 <div className="flex-initial w-60 flex items-center gap-6 justify-end">
-                    <button onClick={() => navigate('/masuk')} className='bg-white px-[18px] py-2 rounded-[9px] hover:bg-gray-300 text-black ease-in-out duration-200 font-semibold'>
-                        Masuk
+                    <button onClick={() => navigate('/')} className='bg-white px-[18px] py-2 rounded-[9px] hover:bg-gray-300 text-black ease-in-out duration-200 font-semibold'>
+                        Keluar
                     </button>
                 </div>
             </div>

@@ -62,7 +62,7 @@ export default function Masuk() {
                   </div>
                 </div>
                 <div className="mt-5 grid justify-center">
-                <Link to="/" className="text-blue-500 hover:underline">
+                <Link to="/home" className="text-blue-500 hover:underline">
                 <button className='w-80 h-12 border-2 bg-transparent text-white font-semibold rounded-md hover:bg-white hover:text-black ease-out duration-200'>
                     Masuk
                   </button>

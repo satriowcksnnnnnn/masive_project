@@ -42,7 +42,7 @@ export default function Navbar() {
     const handleLogout = () => {
         localStorage.removeItem('token');
         setIsLoggedIn(false);
-        navigate('/masuk');
+        navigate('/');
     };
 
     return (
@@ -57,7 +57,6 @@ export default function Navbar() {
                     <Link to="/koleksi" className={isActive ? 'text-third' : ''}>Koleksi</Link>
                     <Link to='/agenda' className={activeRoute === '/agenda' ? 'text-third' : ''}>Agenda</Link>
                     <Link to='/berita' className={activeRoute === '/berita' ? 'text-third' : ''}>Berita</Link>
-                    <Link to='/ulasan' className={activeRoute === '/ulasan' ? 'text-third' : ''}>Ulasan</Link>
                     <Link to='/upload' className={activeRoute === '/upload' ? 'text-third' : ''}>Upload</Link>
                 </div>
                 <div className="flex-initial w-60 flex items-center gap-6 justify-end">
