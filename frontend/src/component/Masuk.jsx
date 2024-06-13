@@ -3,7 +3,6 @@ import { FaEye, FaEyeSlash, FaFacebookF } from 'react-icons/fa';
 import { FcGoogle } from "react-icons/fc";
 import { FaXTwitter } from "react-icons/fa6";
 import { Link, useNavigate } from 'react-router-dom';
-
 import '../assets/styles/auth.css'
 
 export default function Masuk() {
