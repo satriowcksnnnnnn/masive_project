@@ -11,6 +11,7 @@ import Review from './Ulasan/Review';
 import DetailCollection from './Detail/DetailCollection';
 import DetailNews from './DetailBerita/DetailNews';
 import DashAdmin from './Admin/DashAdmin';
+import Landingpage from './Landing/Landingpage';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={<Beranda/>}/>
+        <Route path='/home' element={<Landingpage/>}/>
         <Route path='/daftar' element={<SignIn/>}/>
         <Route path='/masuk' element={<SignUp/>}/>
         <Route path='/pelajari' element={<Learn/>}/>
@@ -28,8 +30,8 @@ function App() {
         <Route path='/agenda' element={<Schedule />}/>
         <Route path='/ulasan' element={<Review  />}/>
         <Route path='/koleksi/3' element={<DetailCollection  />}/>
-        <Route path='/News/' element={<DetailNews />}/>
-        <Route path='/admin/' element={<DashAdmin />}/>
+        <Route path='/News' element={<DetailNews />}/>
+        <Route path='/admin' element={<DashAdmin />}/>
       </Routes>
     </Router>
     
