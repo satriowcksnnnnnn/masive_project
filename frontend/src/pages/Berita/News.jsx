@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../../component/Navbar'
+import NavbarLog from '../../component/NavbarLog'
 import Berita from '../../component/Berita'
 import Footer from '../../component/Footer'
 
@@ -7,7 +7,7 @@ import Footer from '../../component/Footer'
 export default function News() {
   return (
     <>
-        <Navbar/>
+        <NavbarLog />
         <Berita/>
         <Footer/>
     </>

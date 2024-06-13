@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from '../../component/Navbar'
+import NavbarLog from '../../component/NavbarLog'
 import Footer from '../../component/Footer'
 import Formulir from '../../component/Formulir'
 
 export default function Upload() {
     return (
         <>
-        <Navbar />
+        <NavbarLog />
         <Formulir />
         <Footer />
         </>

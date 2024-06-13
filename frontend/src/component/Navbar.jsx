@@ -43,12 +43,11 @@ export default function Navbar() {
                 </div>
                 <div className="flex-auto flex justify-center items-center gap-5 text-sm">
                     <Link to="/" className={activeRoute === '/' ? 'text-third' : ''}>Beranda</Link>
-                    <Link to="/pelajari" className={activeRoute === '/pelajari' ? 'text-third' : ''}>Pelajari</Link>
-                    <Link to="/koleksi" className={isActive ? 'text-third' : ''}>Koleksi</Link>
-                    <Link to='/agenda' className={activeRoute === '/agenda' ? 'text-third' : ''}>Agenda</Link>
-                    <Link to='/berita' className={activeRoute === '/berita' ? 'text-third' : ''}>Berita</Link>
-                    <Link to='/ulasan' className={activeRoute === '/ulasan' ? 'text-third' : ''}>Ulasan</Link>
-                    <Link to='/upload' className={activeRoute === '/upload' ? 'text-third' : ''}>Upload</Link>
+                    <Link to="/masuk" className={activeRoute === '/pelajari' ? 'text-third' : ''}>Pelajari</Link>
+                    <Link to="/masuk" className={isActive ? 'text-third' : ''}>Koleksi</Link>
+                    <Link to='/masuk' className={activeRoute === '/agenda' ? 'text-third' : ''}>Agenda</Link>
+                    <Link to='/masuk' className={activeRoute === '/berita' ? 'text-third' : ''}>Berita</Link>
+                    <Link to='/masuk' className={activeRoute === '/upload' ? 'text-third' : ''}>Upload</Link>
                 </div>
                 <div className="flex-initial w-60 flex items-center gap-6 justify-end">
                     <button onClick={() => navigate('/masuk')} className='bg-white px-[18px] py-2 rounded-[9px] hover:bg-gray-300 text-black ease-in-out duration-200 font-semibold'>

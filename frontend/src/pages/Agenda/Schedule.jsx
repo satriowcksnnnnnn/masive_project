@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from '../../component/Navbar'
+import NavbarLog from '../../component/NavbarLog'
 import Footer from '../../component/Footer'
 import Agenda from '../../component/Agenda'
 
 export default function Schedule() {
     return (
         <>
-            <Navbar />
+            <NavbarLog />
             <Agenda />
             <Footer />
         </>
