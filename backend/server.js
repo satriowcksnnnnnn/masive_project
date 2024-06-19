@@ -24,11 +24,10 @@ app.use(logger);
 // Route autentikasi
 app.use('/api/auth', authRoute);
 
-// Route admin
-app.use('/admin', adminRoute);
-
 // Hanya user yang login bisa CRUD data users
+// Route admin
 app.use(authMiddleware);
+app.use('/admin', adminRoute);
 app.use('/', userRoute);
 
 app.listen(PORT, () => console.log(`Server is running on ${BASE_URL}:${PORT}`));
